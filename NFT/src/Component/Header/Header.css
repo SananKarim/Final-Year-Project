@@ -1,0 +1,83 @@
+.header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+.logo h1 {
+  margin: 0px;
+  color: blue;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.logo h1 span {
+  color: rgb(223, 80, 80);
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 12px;
+  font-weight: bold;
+  color: rgb(58, 56, 56);
+  cursor: pointer;
+}
+.menu a:hover {
+  background-color: rgb(224, 220, 220);
+  transition: 0.5s;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  margin-left: 30px;
+  border: 1px solid rgb(151, 186, 221);
+  font-size: 16px;
+}
+.wallet button {
+  border: none;
+  outline: none;
+  padding: 14px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(32, 129, 226);
+  margin-right: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.wallet button:hover {
+  background-color: rgb(32, 117, 202);
+  transition: 0.5s;
+}

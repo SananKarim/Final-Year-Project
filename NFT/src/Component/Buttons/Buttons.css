@@ -1,0 +1,16 @@
+.bid-btn{
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    color: #000;
+    font-size: 18px;
+}
+.card-details{
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(80, 41, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}

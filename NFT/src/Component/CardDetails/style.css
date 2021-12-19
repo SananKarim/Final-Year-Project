@@ -1,0 +1,150 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+.nftDetails {
+  width: 100%;
+}
+.art-main {
+  width: 100%;
+  height: 450px;
+  background-color: #0099bf;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.art-bg {
+  width: 70%;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+.art img {
+  width: 380px;
+  height: 380px;
+}
+
+.artDetails {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+.desc-price {
+  padding-top: 30px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.art-auction-details {
+  width: 500px;
+  padding-right: 250px;
+  padding-top: 20px;
+}
+.desc {
+  width: 500px;
+  padding-left: 230px;
+}
+.price-auction-artist-history {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.price-auction-artist-history h1,
+p {
+  padding-top: 20px;
+}
+.bid-details {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#art-title {
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+#art-p {
+  text-align: justify;
+  line-height: 2rem;
+  width: 450px;
+}
+.time h1,
+p {
+  padding-top: 12px;
+}
+.bid {
+  width: 200px;
+}
+.buy button {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#place-a-bid-btn {
+  background-color: #00ccff;
+}
+#place-a-bid-btn:hover {
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+#bid-btn {
+  color: #fff;
+  background-color: #4b7cf8;
+  width: 100%;
+}
+#bid-btn:hover {
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+.time-in-words {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.place-a-bid button {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 27px;
+}
+.creator {
+  padding-top: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.creator-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.creator-name {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

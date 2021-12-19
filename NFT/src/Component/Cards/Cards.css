@@ -1,0 +1,77 @@
+.cards {
+  margin-left: 50px;
+  width: 400px;
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid rgb(219, 217, 217);
+  background-color: #fff;
+}
+.links {
+  text-decoration: none;
+}
+.cards:hover {
+  margin-top: 2px;
+  transition: 0.4s;
+}
+.cards img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 400px;
+  height: 350px;
+}
+.title-and-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-and-price h3 {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: rgb(61, 60, 60);
+}
+.card-btn {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-and-price {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-and-price p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.card-btn button {
+  width: 150px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#bid {
+  border: 1px solid rgb(61, 24, 223);
+  color: rgb(61, 24, 223);
+  background-color: #fff;
+}
+#details {
+  background-color: rgb(61, 24, 223);
+}
